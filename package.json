@@ -1,17 +1,15 @@
 {
-  "name": "cilbot",
-  "version": "1.0.0",
-  "description": "Telegram Bot dengan Auto Setup",
+  "name": "cilbot-manager",
+  "version": "2.0.0",
+  "description": "VPS Manager via Telegram",
   "main": "index.js",
   "scripts": {
-    "start": "node setup.js",
-    "dev": "nodemon setup.js"
+    "start": "node setup.js"
   },
   "dependencies": {
     "telegraf": "^4.12.0",
     "dotenv": "^16.0.3",
-    "chalk": "^4.1.2"
-  },
-  "author": "Pujianto1219",
-  "license": "ISC"
+    "chalk": "^4.1.2",
+    "systeminformation": "^5.18.0" 
+  }
 }
